@@ -148,8 +148,14 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="border-t border-white/5 py-12 text-center text-gray-500 text-sm">
-        <p>© {new Date().getFullYear()} Memorialy. All rights reserved.</p>
+      <footer className="border-t border-white/5 py-12">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+          <p>© {new Date().getFullYear()} Memorialy. All rights reserved.</p>
+          <div className="flex gap-6">
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
+          </div>
+        </div>
       </footer>
     </div>
   );
