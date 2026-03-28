@@ -47,10 +47,10 @@ export default function Home() {
           </div>
           <div className="relative mx-auto max-w-5xl rounded-2xl border border-white/10 bg-[#0A0A0A] p-2 shadow-2xl flex">
             <Image src="/ai-chat-mockup.png" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
-            <Image src="/hero-mockup.png" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
-            <Image src="/hero-mockup.png" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
-            <Image src="/hero-mockup.png" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
-          </div>
+            <Image src="/ai-chat-mockup.png" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
+            <Image src="/ai-chat-mockup.png" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
+            <Image src="/ai-chat-mockup.png" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
+            </div>
         </div>
       </section>
 
