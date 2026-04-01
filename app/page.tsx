@@ -8,7 +8,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-[#050505]/80 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center font-bold text-2xl shadow-lg shadow-indigo-500/20">
+            <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-green-600 rounded-xl flex items-center justify-center font-bold text-2xl shadow-lg shadow-indigo-500/20">
               M
             </div>
             <span className="text-xl font-bold tracking-tight">Memorialy</span>
