@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function TermsOfUse() {
   return (
@@ -6,9 +7,7 @@ export default function TermsOfUse() {
       <nav className="fixed top-0 w-full z-50 bg-[#050505]/80 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-green-600 rounded-lg flex items-center justify-center font-bold text-xl text-white">
-              M
-            </div>
+            <Image src="/base_illustration.png" alt="Memorialy Logo" width={32} height={32} className="w-8 h-8" />
             <span className="text-lg font-bold tracking-tight text-white">Memorialy</span>
           </Link>
         </div>
