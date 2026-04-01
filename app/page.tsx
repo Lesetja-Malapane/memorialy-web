@@ -43,12 +43,22 @@ export default function Home() {
               Coming Soon on iOS
             </button>
           </div>
-          <div className="relative mx-auto max-w-5xl rounded-2xl border border-white/10 bg-[#0A0A0A] p-2 shadow-2xl flex">
-            <Image src="/add-journal-page.svg" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
-            <Image src="/ai-chat-page.svg" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
-            <Image src="/journal-page.svg" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
-            <Image src="/add-journal-page.svg" alt="Memorialy UI" width={2736} height={1260} className="rounded-xl w-full h-auto" priority />
+          <div className="relative mx-auto max-w-5xl">
+            <div className="flex md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible snap-x md:snap-none snap-mandatory md:snap-none gap-4 md:gap-8">
+              <div className="flex-shrink-0 w-full md:w-auto snap-center md:snap-none">
+                <Image src="/journal-page.svg" alt="Memorialy UI" width={512} height={299} className="rounded-xl w-full h-auto" priority />
+                <p className="text-center text-sm text-gray-400 mt-2">Journals</p>
+              </div>
+              <div className="flex-shrink-0 w-full md:w-auto snap-center md:snap-none">
+                <Image src="/ai-chat-page.svg" alt="Memorialy UI" width={512} height={299} className="rounded-xl w-full h-auto" priority />
+                <p className="text-center text-sm text-gray-400 mt-2">Powerful AI Chat</p>
+              </div>
+              <div className="flex-shrink-0 w-full md:w-auto snap-center md:snap-none">
+                <Image src="/add-journal-page.svg" alt="Memorialy UI" width={512} height={299} className="rounded-xl w-full h-auto" priority />
+                <p className="text-center text-sm text-gray-400 mt-2">Add Images</p>
+              </div>
             </div>
+          </div>
         </div>
       </section>
 
