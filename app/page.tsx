@@ -16,8 +16,8 @@ export default function Home() {
             <Link href="#testimonials" className="hover:text-white transition-colors">Reviews</Link>
             <Link href="#faq" className="hover:text-white transition-colors">FAQ</Link>
           </div>
-          <Link href="#download" className="bg-white text-black px-6 py-2.5 rounded-full text-sm font-bold hover:bg-gray-200 transition-all">
-            Coming Soon!
+          <Link href="https://apps.apple.com/us/app/memorialy-ai-journal/id6760933658" className="bg-white text-black px-6 py-2.5 rounded-full text-sm font-bold hover:bg-gray-200 transition-all">
+            Get the App!
           </Link>
         </div>
       </nav>
@@ -40,7 +40,8 @@ export default function Home() {
               <svg className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.04 2.26-.79 3.59-.76 1.54.04 2.87.69 3.58 1.77-3.06 1.83-2.52 5.92.38 7.08-1.14 1.74-2.18 3.52-2.63 4.08zM12.03 7.25C11.97 4.94 13.9 3 16.06 3c.18 2.39-2.09 4.31-4.03 4.25z"/>
               </svg>
-              Coming Soon on iOS
+              <Link href="https://apps.apple.com/us/app/memorialy-ai-journal/id6760933658">Available on iOS</Link>
+              
             </button>
           </div>
           <div className="relative mx-auto max-w-5xl">
@@ -150,7 +151,7 @@ export default function Home() {
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Stop forgetting. <br/>Start remembering.</h2>
           <p className="text-gray-400 text-lg mb-10">Join the thousands organizing their minds with Memorialy.</p>
           <button className="bg-white text-black px-10 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform">
-            Coming Soon!
+            <Link href="https://apps.apple.com/us/app/memorialy-ai-journal/id6760933658">Get the App!</Link>
           </button>
         </div>
       </section>
