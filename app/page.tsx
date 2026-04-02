@@ -2,11 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  const myStyle: React.CSSProperties = {
-    backgroundColor: "blue",
-    fontSize: "16px",
-    padding: "10px",
-  };
   return (
     <div className="min-h-screen bg-[#050505] text-white selection:bg-indigo-500/30">
       {/* Navigation */}
@@ -310,25 +305,6 @@ export default function Home() {
               Terms of Use
             </Link>
           </div>
-        </div>
-        <div
-          className="listmysaas-badge-embed"
-          style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "0.75rem", maxWidth: "100%"}}
-        >
-          <a
-            href="https://listmysaas.xyz/"
-            target="_blank"
-            rel="dofollow noopener"
-          >
-            <img
-              src="https://listmysaas.xyz/listmysaasbadgenormal.svg"
-              alt="Featured on ListMySaaS"
-              width="125"
-              height="44"
-              loading="lazy"
-              decoding="async"
-            />
-          </a>
         </div>
       </footer>
     </div>
