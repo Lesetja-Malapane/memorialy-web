@@ -5,15 +5,15 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-[#050505] text-gray-300 selection:bg-indigo-500/30">
       <nav className="fixed top-0 w-full z-50 bg-[#050505]/80 backdrop-blur-xl border-b border-white/5">
-        <div className="max-w-4xl mx-auto px-6 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center">
           <Link
             href="/"
-            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            className="flex items-center text-gray-400 hover:text-white transition-colors text-sm font-medium"
           >
-            <Image src="/base_illustration.png" alt="Memorialy Logo" width={32} height={32} className="w-8 h-8" />
-            <span className="text-lg font-bold tracking-tight text-white">
-              Memorialy
-            </span>
+            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+            </svg>
+            Back to Home
           </Link>
         </div>
       </nav>

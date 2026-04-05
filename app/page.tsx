@@ -295,6 +295,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
           <p>© {new Date().getFullYear()} Memorialy. All rights reserved.</p>
           <div className="flex gap-6">
+            <Link href="/help" className="hover:text-white transition-colors">
+              Help
+            </Link>
             <Link
               href="/privacy"
               className="hover:text-white transition-colors"
